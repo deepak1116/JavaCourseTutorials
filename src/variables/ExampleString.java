@@ -21,6 +21,7 @@ public class ExampleString {
         System.out.println(startsWith);
 
         System.out.println(s1.length());
+        System.out.println(s1.charAt(3));
 
 
 
