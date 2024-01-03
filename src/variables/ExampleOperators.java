@@ -18,10 +18,40 @@ public class ExampleOperators {
         System.out.println(dResult);
 
         //Modulus
-        int a = 10;
-        int b = 5;
+        int a = 7;
+        int b = 70;
         int c = 4;
         System.out.println("Modulus of 10 % 5 : "+a%b);
         System.out.println("Modulus of 10 % 2 : "+a%c);
+
+        //Assignment operators
+        int number1 = 7;
+        int number2 = 70;
+
+        //(number1 += number2) +=
+        System.out.println("Assign operator "+number1+" += "+number2+" : "+(number1 += number2));
+        //(number1 -= number2) -=
+        System.out.println("Assign operator "+number1+" -= "+number2+" : "+(number1 -= number2));
+        //(number1 *= number2) +=
+        System.out.println("Assign operator "+number1+" *= "+number2+" : "+(number1 *= number2));
+        //(number1 /= number2) +=
+        System.out.println("Assign operator "+number1+" /= "+number2+" : "+(number1 /= number2));
+        //(number1 %= number2) +=
+        System.out.println("Assign operator "+number1+" %= "+number2+" : "+(number1 %= number2));
+
+        //Unary operators
+        int number3 = 5;
+        number3--;
+        System.out.println(number3);
+
+        int number4 = 6;
+        System.out.println(-number4);//-6
+        System.out.println(number4);//6
+
+        int pre = 5;
+        int post = 5;
+        System.out.println(++pre);
+        System.out.println(post++);
+        System.out.println("Post: "+ post + " pre: "+pre);
     }
 }
