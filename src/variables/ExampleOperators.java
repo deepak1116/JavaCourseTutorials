@@ -53,5 +53,16 @@ public class ExampleOperators {
         System.out.println(++pre);
         System.out.println(post++);
         System.out.println("Post: "+ post + " pre: "+pre);
+
+        //relational operators
+        int small = 5;
+        int big = 10;
+        System.out.println(small == big);
+        System.out.println(small != big);
+        System.out.println(small >= big);
+        System.out.println(small <= big);
+        System.out.println(small < big);
+        System.out.println(small > big);
+
     }
 }
