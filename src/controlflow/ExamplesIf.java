@@ -1,6 +1,6 @@
 package controlflow;
 
-public class Exampleslf {
+public class ExamplesIf {
     public static void main(String[] args) {
 
         int input = 1;
