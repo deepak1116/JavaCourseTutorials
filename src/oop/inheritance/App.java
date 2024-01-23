@@ -1,4 +1,4 @@
-package oop;
+package oop.inheritance;
 
 public class App {
     public static void main(String[] args) {
