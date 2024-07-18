@@ -13,6 +13,7 @@ public class App {
         cat.eat();
         animal.eat();
         dog1.eat();
+        dog1.eat("meat");
 
 //        ((Dog) dog).bark();
     }
