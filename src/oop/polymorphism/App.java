@@ -14,6 +14,8 @@ public class App {
         animal.eat();
         dog1.eat("veggie");
         dog1.eat("meat");
+        System.out.println(dog.type);
+        System.out.println(dog1.type);
 
 //        ((Dog) dog).bark();
     }

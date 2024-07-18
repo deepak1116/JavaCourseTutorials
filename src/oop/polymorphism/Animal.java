@@ -2,6 +2,7 @@ package oop.polymorphism;
 
 public class Animal {
 
+    public static String type = "Animal";
     public String name;
     public int age;
     public int nrOfEyes;

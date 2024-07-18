@@ -1,6 +1,7 @@
 package oop.polymorphism;
 
 public class Dog extends Animal {
+    public static String type = "Dog";
 
     @Override
     public void eat(){
