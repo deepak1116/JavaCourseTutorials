@@ -7,12 +7,12 @@ public class App {
         Dog dog1 = new Dog();
         Cat cat = new Cat();
 
-        dog = new Cat();
+        //dog = new Cat();
 
         dog.eat();
         cat.eat();
         animal.eat();
-        dog1.eat();
+        dog1.eat("veggie");
         dog1.eat("meat");
 
 //        ((Dog) dog).bark();
