@@ -12,5 +12,10 @@ public class App {
         }
 
         System.out.println(day.ordinal());
+
+        DayOfWeekMembers day2 = DayOfWeekMembers.THURSDAY;
+        System.out.println(day2.getFullName());
+        System.out.println(day2.getNrOfDay());
+        System.out.println(day2.isWeekend());
     }
 }
